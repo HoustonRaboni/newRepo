@@ -1,0 +1,37 @@
+/*background-image: linear-gradient(200deg, #6a89cc, #b8e994);*/
+
+
+/* font-family: "montserrat", sans-serif;*/
+
+
+/* background: #e55039aa;*/
+
+
+/* -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;*/
+
+
+/* container color: #343434;*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+    background-image: linear-gradient(200deg, #6a89cc, #b8e994);
+}
+
+.container {
+    text-align: center;
+    margin-top: 20%;
+    
+}
+
+
+/*******
+
+THE END 
+********/

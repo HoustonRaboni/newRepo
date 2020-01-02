@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <header class="header-wrap fixed">
+        <div class="site-header">
+            <div class="container clearfix">
+                <!--::before-->
+                <div class="pull-left">
+                    <a href="https://google.com" class="header_button busines" target="_blank"> Try Business</a>
+                </div>
+                <div class="auth-page">
+                    <a href="#" class="logo-wrapper relative pull-left"><img src="./kangroo-working.png" class="logo ab-center " alt="Jumpshare" width="93" height="20"></a>
+                </div>
+                <div class="pull-right">
+                    <a href="#" class="header_button">Download Jumpshare</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <div class="container">
+        <div class="main-content" style="clear: both; overflow: hidden; width:950px; margin: 0 auto;margin-top: 113px;">
+            <div class="loginIllustration" style="padding-top: 125px;">
+                <img src="./kangroo-working.png" alt="kanga" width="400">
+            </div>
+            <div class="signup-wrapper" id="salogin">
+                <form action="" class="form-wrapper rightFrmContainer" id="login-box" style="text-align: center;">
+                    <div class="clearfix">
+                        <h3>Sign up</h3>
+                        <p class="loginTxt"> "or " <a href="#">Log In</a></p>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" id="g_signup_button" value class="btn btn-google btn-lg btn-block"> "Sign up free with Google"</button>
+                    </div>
+                    <div class="hr-label" style="margin-bottom: 0px;">
+                        <span class="text">or</span>
+                    </div>
+                    <div class="form-errors">
+                        <span class="alert alert-error"><p>Please enter your first name</p></span>
+                    </div>
+                    <div class="clearfix">
+                        <div class="form-group pull-left clearfix">
+                            <input type="text" name="firstName" id="firstName" placeholder="First name" maxlength="30" class="form-split form-control input-lg error" autocomplete="off" title="Please enter your first name">
+                        </div>
+                        <div class="form-group pull-right clearfix">
+                            <input type="text" name="lastName" value id="lastName" placeholder="Last name" maxlength size="30" class="form-split form-control input-lg error" autocomplete="off" title="Please enter your last name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="email" value id="email" placeholder="Email" maxlength="80" size="30" class="form-control input-lg error" autocomplete="off" title="Please enter your email address">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password_reg" value id="password" maxlength="100" size="30" placeholder="Password" class="form-control input-lg error" autocomplete="off" title="Please enter a password">
+                    </div>
+                    <input type="submit" value="Sign Up for free" id="submit" class="btn btn-blue btn-lg btn-block submit">
+                    <div class="clearfix crisp">
+                        <div class="clearfix">
+                            <label for="" class="custom-controls checkbox pull-left">By signing up, you agree to our "<a href="#" class="link">Terms</a></label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
